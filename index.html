@@ -10,7 +10,10 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">  
 
   <!-- Google Fonts -->
   <!-- Vendor CSS Files -->
@@ -23,8 +26,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/verticalFlip.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
   <link href="assets/css/nav.css" rel="stylesheet">
+  <link href="assets/css/vivus.css" rel="stylesheet">
+  <link href="assets/css/particles.css" rel="stylesheet">
 
 
 </head>
@@ -44,7 +50,6 @@
   <div class="nav">
       <div class="nav__content">
           <ul class="nav__list">
-              <li class="nav__list-item"><img src="/assets/img/navlogo.png" class="img-nav"></li>
               <li class="nav__list-item">Home</li>
               <li class="nav__list-item">About</li>
               <li class="nav__list-item">Projects</li>
@@ -53,7 +58,14 @@
       </div>
   </div> 
 
-    <section id="particles-js"></section>
+    <div id="particles-js">
+              <div id="vivus"></div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
    
   <!-- Vendor JS Files -->
@@ -71,7 +83,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/nav.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+  <script src="assets/js/vivusConfig.js"></script>
+ 
 </body>
 
 </html>
