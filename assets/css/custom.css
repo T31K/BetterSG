@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .btn-green{
   background: #1A4038;
   color: white;

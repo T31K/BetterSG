@@ -1,16 +1,13 @@
-/**
-* Template Name: OnePage - v2.1.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-  font-family: 'Montserrat', sans-serif;
-  color: #444444;
+ 
+    background-repeat: repeat;
+    background-color: #fff;
+    min-height: 50vh;
+      background-image: linear-gradient(to bottom, transparent, transparent 20%, #fff 20%, #fff 90%, transparent 90%),
+        linear-gradient(to right, transparent, transparent 20%, #fff 20%, #fff 90%, transparent 90%),
+        linear-gradient(to right, #eee, #eee 20%, #fff 20%, #fff 90%, #eee 90%);
+      background-size: 10px 10px;
 }
 
 a {
