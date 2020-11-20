@@ -4,3 +4,7 @@
     margin: 0 auto;
     display: none;
 }
+
+section{
+    border: 2px solid blue;
+}
