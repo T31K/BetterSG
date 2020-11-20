@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+
+
+.custom-title-font{
+    font-family: Raleway;
+    font-weight: 800;
+    color: #222222;
+    text-align: center !important;
+    font-size: 40px;
+}

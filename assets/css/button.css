@@ -1,0 +1,21 @@
+.btn-red{
+    background: #e20817;
+    color: white;
+    font-family: Raleway;
+    border-radius: 10px;
+    outline : none;
+    border : none;
+    margin: 0 auto;
+}
+
+.btn-green:hover a, .btn-green a :clicked{
+    outline: none;
+    color: red;
+}
+
+/* slick buttons */
+.slick-prev:before, .slick-next:before{
+    margin: 0 auto !important;
+    color: #e20817 !important;
+    font-size: 60px;
+}

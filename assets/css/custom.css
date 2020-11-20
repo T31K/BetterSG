@@ -2,17 +2,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-.btn-green{
-  background: #1A4038;
-  color: white;
-  outline : none;
-  border : none;
-}
-
-.btn-green:hover a, .btn-green a :clicked{
-  outline: none;
-  color: red;
-}
 
 .btn-lightgreen{
   background: #93C01F;
@@ -160,10 +149,6 @@ div h4 a.active{
   }
 }
 
-.slick-prev:before, .slick-next:before{
-  margin-top: 100px !important;
-  color: #1A4038 !important;
-}
 
 .icon{
   margin-left: 50px;
