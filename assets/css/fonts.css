@@ -8,3 +8,16 @@
     text-align: center !important;
     font-size: 40px;
 }
+
+.custom-title-font-r{
+    font-family: Raleway;
+    font-weight: 800;
+    color: #e20817;
+    text-align: center !important;
+    font-size: 40px;
+}
+
+span.red{
+    color: #e20817;
+    font-size: 20px;
+}

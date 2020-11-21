@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
+
+.who-wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px 45px;
+    height: 380px;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+}
+
+.work-wrapper-r {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    padding: 25px 45px;
+}
+
+.work-wrapper-r-alt {
+    background-color: #fff;
+    padding: 25px 45px;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    font-family: 'Playfair Display', serif;
+}
+
+.work-wrapper-l-alt {
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7); 
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    padding: 25px 45px;
+}
+
+.p-none{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p.work-wrap-text {
+    margin-top: 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+    color: #7c82a2;
+}
+
+p.work-wrap-text-alt {
+    text-align: right;
+    margin-top: 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+    color: #7c82a2;
+}
+
+/* profile */
+.card {
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    outline: none;
+    border: none;
+    transition: 0.3s all;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 340px;
+    max-width: 95%;
+}
+.avatar img {
+    border-radius: 50%;
+    border: 4px solid #e20817;
+    }
+
+
+
+.description {
+    font-size: 17px;
+    margin-top: 18px;
+    color: #64707d;
+}
+
+.social ul {
+    margin-top: 22px;
+    list-style-type: none;
+}
+
+.social ul li {
+        display: inline;
+        font-size: 22px;
+        cursor: pointer;
+        color: #17a589;
+}

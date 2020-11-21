@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+@media (min-width: 2007px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1600px !important;
+  }
 
 .btn-lightgreen{
   background: #93C01F;
