@@ -517,8 +517,13 @@ h2{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  height: 100vh !important;
-  width: 100vw !important;
+  height: 100vh;
+}
+
+@media (max-width: 1630px){
+  section{
+    overflow-x: hidden
+  }
 }
 .section-bg {
   background-color: #f8fbfe;
