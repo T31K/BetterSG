@@ -150,14 +150,34 @@
   });
 
   $('#hide').click(function(){
-    $('#vivus').hide()
+    $('#vivus_main').hide()
   })
 
-  $('#show').click(function(){
-    $('#vivus').show()
+  // $(window).scroll( function(){
+  //   let scrollTop = window.pageYOffset 
+  //   console.log(scrollTop)
+  // }) 
+  $(window).scroll( () => {
+    let scrollTop = window.pageYOffset 
+    let main_height = $('#home').height() 
+
+    if (scrollTop > main_height){
+      $('#vivus_main').show()
+    }
   })
+    
+
+    $(window).scroll( () => {
+      let scrollTop = window.pageYOffset 
+      console.log(scrollTop)
+      let height = $('#home').height() + $('#whatwedo').height()
+      if (scrollTop > height){
+        $('#vivus_tools').show()
+      }
+  })
+
 })(jQuery);
 
 
 
-
+    

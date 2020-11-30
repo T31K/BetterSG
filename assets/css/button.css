@@ -13,9 +13,24 @@
     color: red;
 }
 
-/* slick buttons */
-/* .slick-prev:before, .slick-next:before{
-    margin: 0 auto !important;
-    color: #e20817 !important;
-    font-size: 60px;
+/* .carousel{
+    border: 2px solid blue;
+    height: 50%;
 } */
+
+div.carousel div img{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+/* 
+@media (min-width: 1601px){
+    div.carousel div img{
+    }
+} */
+
+.carousel-description{
+    width: 80%;
+    margin: 0 auto;
+}

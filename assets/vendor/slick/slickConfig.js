@@ -4,6 +4,8 @@ $(document).ready(function(){
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
+        adaptiveHeight: false,
+        accessibility: false,
     })
 
     $('.about-carousel').slick({
@@ -13,6 +15,7 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        accessibility: false
     })
     
     $('.test').slick({
