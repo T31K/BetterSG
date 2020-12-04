@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
 
-span#typed{
+span#typed, span#typed-test{
         min-height: 15vh;
         display: flex;
         align-items: center;

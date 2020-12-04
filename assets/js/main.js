@@ -159,20 +159,19 @@
   // }) 
   $(window).scroll( () => {
     let scrollTop = window.pageYOffset 
-    let main_height = $('#home').height() 
+    let main_height = $('#home').height() - 50
 
     if (scrollTop > main_height){
-      $('#vivus_main').show()
+      $('#whatwedo').addClass("whatwedo_bg")
     }
   })
     
 
     $(window).scroll( () => {
       let scrollTop = window.pageYOffset 
-      console.log(scrollTop)
       let height = $('#home').height() + $('#whatwedo').height()
       if (scrollTop > height){
-        $('#vivus_tools').show()
+        $('#tools').addClass("tools_bg")
       }
   })
 
