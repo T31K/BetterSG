@@ -113,3 +113,13 @@ div.carousel-description p{
     margin: 0 auto;
     width: 100%;
 }
+
+.whatwedo_bg{
+    background-image: url('../img/lines_01.svg');
+    background-repeat: no-repeat;
+}
+
+.tools_bg{
+    background-image: url('../img/lines_02.svg');
+    background-repeat: no-repeat;
+}
