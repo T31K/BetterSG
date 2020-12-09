@@ -1952,3 +1952,7 @@ button a{
 button a:hover{
   color: #004120;
 }
+
+.img-icon{
+  width: 220px !important;
+}
