@@ -114,6 +114,19 @@ div.carousel-description p{
     width: 100%;
 }
 
+.card-custom{
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 30px 20px 0 rgba(130,136,171,.1);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.card-custom img{
+    width: 40%;
+}
+
 /* .whatwedo_bg{
     background-image: url('../img/lines_01.svg');
     background-repeat: no-repeat;

@@ -4,9 +4,9 @@ body {
     background-repeat: repeat;
     background-color: #fff;
     min-height: 50vh;
-      background-image: linear-gradient(to bottom, transparent, transparent 20%, #fff 20%, #fff 90%, transparent 90%),
-        linear-gradient(to right, transparent, transparent 20%, #fff 20%, #fff 90%, transparent 90%),
-        linear-gradient(to right, #eee, #eee 20%, #fff 20%, #fff 90%, #eee 90%);
+      background-image: linear-gradient(to bottom, transparent, transparent 20%, #F9FAFD 20%, #F9FAFD 90%, transparent 90%),
+        linear-gradient(to right, transparent, transparent 20%, #F9FAFD 20%,#F9FAFD 90%, transparent 90%),
+        linear-gradient(to right, #eee, #eee 20%, #F9FAFD 20%, #F9FAFD 90%, #eee 90%);
       background-size: 10px 10px;
 }
 
@@ -1956,3 +1956,12 @@ button a:hover{
 .img-icon{
   width: 220px !important;
 }
+
+/* .title-bg{
+  background: red;
+  width: 30%;
+  height: 100%;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 0 auto;
+} */
