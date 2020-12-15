@@ -122,6 +122,8 @@ div.carousel-description p{
     height: 300px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    
 }
 .card-custom img{
     width: 40%;

@@ -1,12 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
 .custom-title-font{
     font-family: 'Playfair Display';
     font-weight: 800;
     color: #222222;
     text-align: center !important;
     font-size: 40px;
+}
+
+
+.card-name{
+    height: 50px;
+    margin-top: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    width: 70%;
+    color: #fff;
+    letter-spacing: 1.54px;
+    border-radius: 25px;
+    background-color: #BA262B;
+}
+
+
+
+.custom-card-font{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: .688rem;
+    line-height: 18px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center !important;
+    margin-top: 10px;
 }
 
 .custom-title-font-r{
