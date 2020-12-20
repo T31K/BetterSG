@@ -120,7 +120,14 @@ div.carousel-description p{
     padding: 10px;
     box-shadow: 0 30px 20px 0 rgba(130,136,171,.1);
     height: 300px;
+<<<<<<< HEAD
  
+=======
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+>>>>>>> c11deb18dc192e89abc46af77529d9d91f362857
 }
 .card-custom img{
     width: 40%;

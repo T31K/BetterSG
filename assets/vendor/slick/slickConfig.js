@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.carousel').slick({
         arrows: true,
         speed: 300,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
         adaptiveHeight: false,
         accessibility: false,
@@ -26,6 +26,36 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 1
     })
+
+
+$('.center-carousel').slick({
+    centerMode: true,
+    centerPadding: '100px',
+    slidesToShow: 3,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 })
 
 // responsive: [
