@@ -120,11 +120,12 @@ div.carousel-description p{
     padding: 10px;
     box-shadow: 0 30px 20px 0 rgba(130,136,171,.1);
     height: 300px;
-    display: flex;
-    justify-content: center;
+ 
 }
 .card-custom img{
     width: 40%;
+    display:block;
+    margin:auto;
 }
 
 /* .whatwedo_bg{
