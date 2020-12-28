@@ -2,10 +2,12 @@ $(document).ready(function(){
     $('.carousel').slick({
         arrows: true,
         speed: 300,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: false,
         accessibility: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
     })
 
     $('.about-carousel').slick({
@@ -29,8 +31,6 @@ $(document).ready(function(){
 
 
 $('.center-carousel').slick({
-    centerMode: true,
-    centerPadding: '100px',
     slidesToShow: 3,
     slidesToShow: 3,
     autoplay: true,
@@ -42,7 +42,7 @@ $('.center-carousel').slick({
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 1
         }
       },
       {

@@ -35,6 +35,41 @@
     margin-top: 10px;
 }
 
+.custom-we-font{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 50px;
+    font-weight: 800;
+    color: #222222;
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+.custom-action-font{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 18px;
+    font-weight: 800;
+    color: #e20817;
+    text-align: center !important;
+    margin-top: 10px;
+}
+
+
+.custom-tfg-font{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 18px;
+    font-weight: 800;
+    color: #222222;
+    text-align: center !important;
+    margin-top: 10px;
+}
+
+
 .custom-title-font-r{
     font-family: Raleway;
     font-weight: 800;

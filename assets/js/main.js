@@ -1,9 +1,4 @@
-/**
-* Template Name: OnePage - v2.1.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -14,8 +9,27 @@
         $(this).remove();
       });
     }
+
+    if($(window).width() > 991) {
+      $("#road").show()
+      $("#road_mobile").hide()
+    } else {
+      $("#road").hide()
+      $("#road_mobile").show()
+
+    }
   });
 
+  $(window).resize(function() {
+    if($(window).width() > 991) {
+      $("#road").show()
+      $("#road_mobile").hide()
+    } else {
+      $("#road").hide()
+      $("#road_mobile").show()
+
+    }
+}); 
   // // Smooth scroll for the navigation menu and links with .scrollto classes
   // var scrolltoOffset = $('#header').outerHeight() - 2;
   // $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
@@ -173,6 +187,8 @@
       if (scrollTop > height){
         $('#tools').addClass("tools_bg")
       }
+
+      $("#flip").flip();
   })
 
 })(jQuery);

@@ -118,5 +118,6 @@
     display: none;
 }
 
-
-  
+.carousel{
+    background: none !important;
+}
