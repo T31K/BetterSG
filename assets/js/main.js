@@ -191,6 +191,20 @@
       $("#flip").flip();
   })
 
+  $('img').on('dragstart', function(event) { event.preventDefault(); });
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
+
+$(".char").on({
+  "mouseover" : function() {
+     this.src = `${this.src.substring(0,this.src.length-4)}_hover.svg`
+   },
+   "mouseout" : function() {
+     this.src= `${this.src.substring(0,this.src.length-10)}.svg`
+   }
+ });
+
 })(jQuery);
 
 

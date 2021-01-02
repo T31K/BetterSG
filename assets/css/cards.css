@@ -122,7 +122,6 @@ div.carousel-description p{
     box-shadow: 0 30px 20px 0 rgba(130,136,171,.1);
     height: 380px;
     opacity: 0.99;
- 
 }
 
 .card-networks{
@@ -139,6 +138,17 @@ div.carousel-description p{
     margin:auto;
 }
 
+
+.card-char{
+    padding: 10px;
+    display: block;
+    height: 380px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
 .card-networks div div p{
     font-family: 'Montserrat';
     font-weight: 500;
@@ -146,6 +156,15 @@ div.carousel-description p{
 .card-custom img.icon{
     width: 35%;
 }
+
+img.char{
+    width: 15%;
+    display: inline-block;
+    margin:auto;
+}
+
+
+
 
 #card-text{
     margin-top: 50px;
@@ -189,5 +208,12 @@ section#whatwedo {
         padding-left: 40px !important;
         padding-right: 40px !important;
     }
+}
+
+section#about div.container{
+    background-image: url('/assets/img/testbus.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  
 }
 
