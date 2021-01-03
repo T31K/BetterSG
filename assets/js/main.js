@@ -196,14 +196,16 @@ $("body").on("contextmenu", "img", function(e) {
   return false;
 });
 
-$(".char").on({
-  "mouseover" : function() {
-     this.src = `${this.src.substring(0,this.src.length-4)}_hover.svg`
-   },
-   "mouseout" : function() {
-     this.src= `${this.src.substring(0,this.src.length-10)}.svg`
-   }
- });
+  $(".char").on({
+    "mouseover" : function() {
+      this.src = `${this.src.substring(0,this.src.length-4)}_hover.svg`
+      console.log(this.id)
+      console.log(this.src)
+    },
+    "mouseout" : function() {
+      this.src= `${this.src.substring(0,this.src.length-10)}.svg`
+    }
+  });
 
 })(jQuery);
 
