@@ -4,6 +4,7 @@
 
   // Preloader
   $(window).on('load', function() {
+ 
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
@@ -195,12 +196,18 @@
 $("body").on("contextmenu", "img", function(e) {
   return false;
 });
+  
+  const name = ["0","Gaurav" , "Chan Chi Ling", "Dominic Soon", "Joel Kek"]
+  const pos = ["0", "CEO" , "COO", "CFO", "CTO"]
+  const email = ["0", "gaurav@better.sg" , "chiling@better.sg", "dominic@better.sg", "joel@better.sg"]
 
+  
   $(".char").on({
     "mouseover" : function() {
       this.src = `${this.src.substring(0,this.src.length-4)}_hover.svg`
-      console.log(this.id)
-      console.log(this.src)
+      $('#about-title').text(`${name[this.id]}`)
+      $('#about-position').text(`${pos[this.id]}`)
+      $('#about-email').text(`${email[this.id]}`)
     },
     "mouseout" : function() {
       this.src= `${this.src.substring(0,this.src.length-10)}.svg`
