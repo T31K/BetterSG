@@ -160,3 +160,10 @@ div h4 a.active{
 }
 }
 
+div.carousel div img{
+  width: 180px;
+}
+
+div.carousel div h4{
+  color: #6a6a6a;
+}
