@@ -27,14 +27,11 @@ p{
 
 
 .custom-card-font{
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    font-size: .688rem;
-    line-height: 18px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center !important;
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 500;
     margin-top: 10px;
+    color: #6a6a6a;
 }
 
 .custom-we-font{

@@ -4,32 +4,13 @@
 
   // Preloader
   $(window).on('load', function() {
- 
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
       });
     }
 
-    if($(window).width() > 991) {
-      $("#road").show()
-      $("#road_mobile").hide()
-    } else {
-      $("#road").hide()
-      $("#road_mobile").show()
-
-    }
-  });
-
-  $(window).resize(function() {
-    if($(window).width() > 991) {
-      $("#road").show()
-      $("#road_mobile").hide()
-    } else {
-      $("#road").hide()
-      $("#road_mobile").show()
-
-    }
+ 
 }); 
   // // Smooth scroll for the navigation menu and links with .scrollto classes
   // var scrolltoOffset = $('#header').outerHeight() - 2;
@@ -37,7 +18,7 @@
   //   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
   //     var target = $(this.hash);
   //     if (target.length) {
-  //       e.preventDefault();
+  //       e.preventDefault(); 
 
   //       var scrollto = target.offset().top - scrolltoOffset;
 
@@ -196,18 +177,12 @@
 $("body").on("contextmenu", "img", function(e) {
   return false;
 });
-  
-  const name = ["0","Gaurav" , "Chan Chi Ling", "Dominic Soon", "Joel Kek"]
-  const pos = ["0", "CEO" , "COO", "CFO", "CTO"]
-  const email = ["0", "gaurav@better.sg" , "chiling@better.sg", "dominic@better.sg", "joel@better.sg"]
 
-  
+
   $(".char").on({
     "mouseover" : function() {
       this.src = `${this.src.substring(0,this.src.length-4)}_hover.svg`
-      $('#about-title').text(`${name[this.id]}`)
-      $('#about-position').text(`${pos[this.id]}`)
-      $('#about-email').text(`${email[this.id]}`)
+      
     },
     "mouseout" : function() {
       this.src= `${this.src.substring(0,this.src.length-10)}.svg`
