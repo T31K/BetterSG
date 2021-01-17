@@ -5,7 +5,7 @@
 //     return false;
 //   });
   
-    const name = ["0","Gaurav" , "Chan Chi Ling", "Dominic Soon", "Joel Kek"]
+    const name = ["0","Gaurav Keerthi" , "Chan Chi Ling", "Dominic Soon", "Joel Kek"]
     const pos = ["0", "CEO" , "COO", "CFO", "CTO"]
     const email = ["0", "gaurav@better.sg" , "chiling@better.sg", "dominic@better.sg", "joel@better.sg"]
    
@@ -16,6 +16,7 @@
         $('#about-title').text(`${name[this.id]}`)
         $('#about-position').text(`${pos[this.id]}`)
         $('#about-email').text(`${email[this.id]}`)
+        $('#about-btn').attr("href",`mailto:${email[this.id]}`)
         $('#board').attr("src",`assets/img/team/${pos[this.id]}.jpg`)
         
       },
